@@ -25,7 +25,6 @@ snails = {name: "Snail Trail", address: "4 downing", category: "french"}
 choc = {name: "Chocolate Haven", address: "5 downing", category: "belgian"}
 
 
-
 [pizza, noodle, sushi, snails, choc].each do |attributes|
   restaurant = Restaurant.create!(attributes)
   puts "Created #{restaurant.name}"
